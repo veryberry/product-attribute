@@ -11,10 +11,10 @@
     "website": "",
     "license": "AGPL-3",
     "category": "Product Management",
-    "depends": ['base', 'product'],
+    "depends": ['base', 'product', 'stock'],
     "data": [
         'views/product_view.xml'
     ],
     'images': [],
-    'installable': False,
+    'installable': True,
 }
